@@ -14,5 +14,26 @@
 
 .main-visual-text {
   padding: 20px 0 0 20px;
-  color: rgba(75, 73, 73, 0.644);
+  color: gray;
+}
+
+main {
+  width: 840px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.blog {
+  width: 840px;
+  margin: 20px 0 20px 0;
+  border-bottom: 1px solid gray;
+}
+
+.blog-box {
+  margin: 30px 0 30px;
+}
+
+h3 {
+  color: gray;
 }
