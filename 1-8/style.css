@@ -6,22 +6,23 @@
 
 main {
   width: 960px;
-  margin: 0 auto;
+  
 }
 
 .list {
-  margin-top: 50px;
+  margin: 50px 0 50px 0;
   height: auto;
   list-style: none;
 }
 
 .list-item {
+  color:grey;
   height: auto;
-  padding: 20px 0 20px 0;
+  padding: 20px 0 20px 20px;
 }
 
 .list-item:nth-child(odd) {
-  background-color: grey;
+  background-color: #e0e0e0;
 }
 
 .color-box {
