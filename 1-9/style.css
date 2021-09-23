@@ -14,12 +14,12 @@ main {
   width: 960px;
   margin: 50px auto;
   display: flex;
-  justify-content: center;
 }
 
 .step-box {
   width: 300px;
   background-color: #eeeeee;
+  position: relative;
 }
 
 .step-box:nth-child(1),
@@ -55,6 +55,9 @@ main {
 }
 
 .tag {
+  position: absolute;
+  top: 0px;
+  left: 0px;
   color: white;
   background-color: #ff9a4b;
 }
