@@ -25,6 +25,7 @@ header > div {
 main {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 
 .side-space {
@@ -54,6 +55,7 @@ footer {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 footer > div {
@@ -62,8 +64,4 @@ footer > div {
   max-width: 600px;
   height: 40px;
   margin: 10px;
-}
-
-footer > :last-child {
-  justify-content: center;
 }
