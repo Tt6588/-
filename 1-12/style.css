@@ -33,7 +33,7 @@ main {
 }
 
 .boxes {
-  background-color: green;
+  background-color: limegreen;
   max-width: 700px;
   padding: 20px;
   flex-grow: 1;
@@ -47,4 +47,23 @@ main {
   flex-basis: 200px;
   height: 130px;
   margin: 10px;
+}
+
+footer {
+  background-color: blue;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer > div {
+  background-color: skyblue;
+  flex-basis: 45%;
+  max-width: 600px;
+  height: 40px;
+  margin: 10px;
+}
+
+footer > :last-child {
+  justify-content: center;
 }
