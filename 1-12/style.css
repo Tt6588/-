@@ -1,1 +1,50 @@
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: hotpink;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > :first-child {
+  margin-right: auto;
+}
+
+header > div {
+  background-color: pink;
+  flex-basis: 140px;
+  height: 70px;
+  margin: 0 10px;
+}
+
+main {
+  background-color: black;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.side-space {
+  background-color: palegreen;
+  width: 300px;
+}
+
+.boxes {
+  background-color: green;
+  max-width: 700px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxes > div {
+  background-color: yellow;
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  flex-grow: 1;
+}
